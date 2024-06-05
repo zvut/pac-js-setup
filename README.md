@@ -49,7 +49,7 @@ copy contract file from frontend/pacts/ and paste to backend folder in backend/p
 cd backend
 npm install
 node index.js //starts a backend server TERMINAL 1
-node verifyPacts.js //verify a contact TERMINAL 2
+node verifyPacts.js //verify a contract TERMINAL 2
 ```
 
 Links:
