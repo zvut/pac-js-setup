@@ -2,9 +2,10 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "proxy" :"http://localhost:3001",
+  "proxy": "http://localhost:3001",
   "dependencies": {
     "@pact-foundation/pact": "^12.5.2",
+    "@pact-foundation/pact-node": "latest",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.7.2",
     "jest-environment-jsdom": "^29.7.0",

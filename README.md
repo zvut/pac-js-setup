@@ -42,9 +42,12 @@ A Pact contract is a formalized agreement between a service consumer and a servi
 cd frontend
 npm install
 npm start //starts a frontend server TERMINAL 1
-npm test //create a contact TERMINAL 2
+npm test //create a contract TERMINAL 2
+docker build
+docker compose -d // will up the pact-broker
+node publish.js // will publish contract json to pact-broker
 
-copy contract file from frontend/pacts/ and paste to backend folder in backend/pacts/
+->IF LOCALLY copy contract file from frontend/pacts/ and paste to backend folder in backend/pacts/ 
 
 cd backend
 npm install
