@@ -52,7 +52,7 @@ node publish.js // will publish contract json to pact-broker
 cd backend
 npm install
 node index.js //starts a backend server TERMINAL 1
-node verifyPacts.js //verify a contact TERMINAL 2
+node verifyPacts.js //verify a contract TERMINAL 2
 ```
 
 Links:
